@@ -4,8 +4,8 @@ import joblib
 import pandas as pd
 import matplotlib.pyplot as plt
 
-model = joblib.load('C:/Users/mnkhz/Desktop/Caps Pro/xgb_model.pkl')
-scaler = joblib.load('C:/Users/mnkhz/Desktop/Caps Pro/scaler.pkl')
+model = joblib.load('xgb_model.pkl')
+scaler = joblib.load('scaler.pkl')
 
 # Load your dataset
 df = pd.read_csv('uneguicar1.csv')

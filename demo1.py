@@ -4,7 +4,7 @@ import joblib
 import pandas as pd
 import matplotlib.pyplot as plt
 import xgboost as xgb
-import standard scaler from scikit-learn
+import sklearn
 
 model = joblib.load('xgb_model.pkl')
 scaler = joblib.load('scaler.pkl')

@@ -3,6 +3,7 @@ import streamlit as st
 import joblib
 import pandas as pd
 import matplotlib.pyplot as plt
+import xgboost as xgb
 
 model = joblib.load('xgb_model.pkl')
 scaler = joblib.load('scaler.pkl')
